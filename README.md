@@ -2,6 +2,12 @@
 
 This is a lightweight program for calculating Rectangle intersects and adjacency.
 
+## Requirements
+
+This is what I built it on, might work on other version as well
+
+`node ~14.16.0`
+
 ## Overview
 
 A combination of OOP and FP are used, refactoring to use either completely can be done if preferred.
