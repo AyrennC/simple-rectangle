@@ -1,6 +1,6 @@
 ## Simple Rectangle
 
-This is a lightweight program for calculating Rectangle intersects and adjacency.
+This is a lightweight program for calculating Rectangle intersects and adjacencies.
 
 ## Requirements
 
