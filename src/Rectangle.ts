@@ -100,7 +100,7 @@ export class Rectangle extends Poly {
    */
   public intersectingVertices(other: Rectangle): Vertex[] {
     // done in a functional programming paradigm
-    // I can switch to imperative trivially if needed
+    // I can switch to imperative if needed
     return pipe(
       other,
       this.intersects,
