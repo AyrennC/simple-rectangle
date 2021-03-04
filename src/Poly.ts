@@ -9,6 +9,14 @@ export class Poly {
     this.bottomRight = makeBottomRightVertex(x0, y0, x1, y1);
   }
 
+  public get bottomLeft(): Vertex {
+    return new Vertex(this.topLeft.x, this.bottomRight.y);
+  }
+
+  public get topRight(): Vertex {
+    return new Vertex(this.bottomRight.x, this.topLeft.y);
+  }
+
   public toObject(): Record<string, number> {
     return {
       x0: this.topLeft.x,

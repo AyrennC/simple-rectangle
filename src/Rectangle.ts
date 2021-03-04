@@ -17,14 +17,6 @@ export class Rectangle extends Poly {
     return this.width * this.height;
   }
 
-  public get bottomLeft(): Vertex {
-    return new Vertex(this.topLeft.x, this.bottomRight.y);
-  }
-
-  public get topRight(): Vertex {
-    return new Vertex(this.bottomRight.x, this.topLeft.y);
-  }
-
   public get top(): Line {
     return Line.fromVertices(this.topLeft, this.topRight);
   }
